@@ -1,0 +1,43 @@
+.d-block{
+      width: 100%;
+      height: 600px;
+    }
+
+    @media (max-width: 991px) {
+  .d-block{
+      width: 100%;
+      height: 300px;
+    }
+}
+  @media (max-width: 575px) {
+  .d-block{
+      width: 100%;
+      height: 300px;
+    }
+  }
+
+  .carousel-caption {
+    font-size: 60px !important; 
+    color: wheat;
+    font-weight: bolder;
+    position: absolute;
+    top: 30%;
+  }
+  @media (max-width: 991px) {
+    .carousel-caption{
+    font-size: 350px;
+    color: wheat;
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+  }
+}
+  @media (max-width: 575px) {
+    .carousel-caption{
+    font-size: 30px;
+    color: wheat;
+    font-weight: bolder;
+    position: absolute;
+    top: 30%;
+  }
+  }
